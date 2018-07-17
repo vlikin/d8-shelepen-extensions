@@ -1,0 +1,60 @@
+en:
+  name: Viktor
+  email: viktor.likin@gmail.com
+  menu:
+    - title: Home
+      link: '#home'
+    - title: Contact
+      link: '#home'
+    - title: About Me
+      link: '#about_me'
+    - title: Resume
+      link: '#resume'
+    - title: Services
+      link: '#services'
+    - title: Contact
+      link: '#contact'
+  lang:
+    en: Eng
+    ru: Rus
+    uk: Ukr
+ru:
+  name: Виктор
+  email: viktor.likin@gmail.com
+  menu:
+    - title: Домашняя
+      link: '#home'
+    - title: Контакты
+      link: '#home'
+    - title: Обо мне
+      link: '#about_me'
+    - title: Резюме
+      link: '#resume'
+    - title: Услуги
+      link: '#services'
+    - title: Контакты
+      link: '#contact'
+  lang:
+    en: Анг
+    ru: Рус
+    uk: Укр
+uk:
+  name: Виктор
+  email: viktor.likin@gmail.com
+  menu:
+    - title: Домашня
+      link: '#home'
+    - title: Контакты
+      link: '#home'
+    - title: Про мене
+      link: '#about_me'
+    - title: Резюме
+      link: '#resume'
+    - title: Послуги
+      link: '#services'
+    - title: Контакти
+      link: '#contact'
+  lang:
+    en: Анг
+    ru: Рос
+    uk: Укр

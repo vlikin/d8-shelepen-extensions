@@ -1,0 +1,10 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      css/style.css: {weight: -50}
+  js:
+    js/app.bundle.js : {}
+    js/script.js : {}
+  dependencies:
+    - core/drupal

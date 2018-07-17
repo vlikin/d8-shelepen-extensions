@@ -1,0 +1,38 @@
+en:
+  title: About me
+  subtitle: Let's get friends
+  personal: >
+    Hello, my name is Victor. I am 32 years old. I am married,
+    I have a daughter. I am an open-minded and easy going person.
+    I like challenging and tough tasks. I like engineering, painting, flowering.
+    I visit a fitness club on a regular basis.
+  professional: >
+    I've got very wide professional experience in different branches.
+    Now I am full-stack NodeJS developer. I like projects jobs.
+    I handle all software development stages. I am not the best
+    I do not want to do it. Also, I have own disadvantages.
+    My real advantage for you is that I am multi-professional,
+    multi-technological employer in the single person that can handle
+    and manage your IT problems with specified quality.
+ru:
+  title: Обо мне
+  subtitle: Давайте дружить
+  personal: >
+    Здравствуйте, меня зовут Виктор. Мне 32 года, я женат и у меня есть дочка. Я спокойный и без каких-либо предубеждений. Мне нравятся
+    тяжелые, запутаные задачи, а также конструирование, рисование, цветоводство. Посещаю тренажерный зал.
+  professional: >
+    Я получил много профессионального опыта в различных областях деятельности. Сейчас я full-stack NodeJS разработчик.
+    Мне нравится попроектое сотрудничество, справляюсь со всеми этапами разработки. Я не лучший и у меня есть
+    свои недостатки. Мое основное приимущество в том, что у меня есть опыт и знания во многих областях знаний
+    и я самостоятельно могу управлять и решать Ваши IT задачи с определенным уровнем качества самостоятельно.
+uk:
+  title: Про мене
+  subtitle: Давайте товаришувати
+  personal: >
+    Доброго дня, мене звуть Віктор. Мені 32 роки, я одружений і у мене є дочка. Я спокійний і без будь-яких упереджень. Мені подобаються
+    важкі, заплутані задачі, а також конструювання, малювання, квітникарство. Відвідую тренажерний зал.
+  professional: >
+    Я отримав багато професійного досвіду в різноманітних областях діяльності. Зараз я full-stack NodeJS розробник.
+    Мені подобається попроектна співпраця, справляюся з усіма етапами розробки. Я не найкращий і маю власні недоліки. Моя основна перевага в тому, що у мене є досвід і знання в багатьох сферах
+    знань і я самостійно можу керувати й вирішувати Ваші IT задачі з певним рівнем якості самостійно.
+

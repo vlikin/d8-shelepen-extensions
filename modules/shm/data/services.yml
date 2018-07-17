@@ -1,0 +1,63 @@
+en:
+  title: Services
+  services:
+    design:
+      title: Design
+      content: We deliver a user-friendly mobile design and web experience to make your clients love it.
+    prototype:
+      title: Software prototyping
+      content: We create clickable apps prototypes to help you pitch your ideas to investors.
+    web_app:
+      title: Web apps
+      content: We design and develop custom web apps to make your ideas work.
+    mobile_app:
+      title: Mobile apps
+      content: We create native and cross platform iOS and Android apps to make your business mobile.
+    dev_ops:
+      title: Dev Ops
+      content: We automate delivery process and infrastructure changes to speed up time-to-market.
+    qa:
+      title: QA
+      content: We ensure the timely release of working software to get a positive users feedback.
+ru:
+  title: Услуги
+  services:
+    design:
+      title: Дизайн
+      content: Предоставляем свой опыт в разработке дизайна для Web и мобильных решений, которые нравятся вашим клиентам
+    prototype:
+      title: Прототипирование приложений
+      content: Создаем прототипы приложений, которые помогают уловить идею вашим инвесторам
+    web_app:
+      title: Интернет приложения
+      content: Проектируем и разрабатываем интернет приложения, заставляя работать ваши идеи
+    mobile_app:
+      title: Мобильные приложения
+      content: Создаем родные и кросс-платформенные iOS, Android приложения, делая ваш бизнес мобильным
+    dev_ops:
+      title: Dev Ops
+      content: Автоматизируем процесс доставки измений и изменения инфраструктуры, ускоряя процесс обновления продукта
+    qa:
+      title: Тестирование
+      content: Обеспечиваем переодический выход приложения, получая позитивный отзыв от клиентов
+uk:
+  title: Послуги
+  services:
+    design:
+      title: Дизайн
+      content: Надаємо свій досвід в розробці дизайна для Web і мобільних рішень, які подобаються вашим клієнтам
+    prototype:
+      title: Прототипування додатків
+      content: Створюємо прототипи додатків, які допомагають зрозуміти ідею вашим інвесторам
+    web_app:
+      title: Інтернет додатки
+      content: Проектуємо і розробляємо інтернет додатки, змушуючи працювати ваші ідеї
+    mobile_app:
+      title: Мобільні додатки
+      content: Створюємо рідні та кросс-платформені iOS, Android додатки, роблячи ваш бізнес мобільним
+    dev_ops:
+      title: Dev Ops
+      content: Автоматизуємо процес поставки змін та змінення інфраструктури, прискорюючи процес оновлення продукту
+    qa:
+      title: Тестування
+      content: Забезпечуємо періодичний вихід додатку, отримуючи позитивний відгук від клієнтів

@@ -1,0 +1,12 @@
+name: sht
+type: theme
+description: 'Shelepen theme'
+package: Other
+core: 8.x
+libraries:
+  - sht/global-styling
+
+base theme: false
+
+regions:
+  content: Content

@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col m12">
+    <h1 class="center-align">{{ title }}</h1>
+  </div>
+  <div class="col m12">
+    <ul data-collapsible="accordion" class="collapsible popout">
+      {% for position in data.position %}
+        <li>
+          <div class="collapsible-header">{{ data.position }} - {{ data.company }}</div>
+          <div class="collapsible-body">
+            <div class="place-period">{{ position.period }}</div>
+            <span>{{ position.description }}</span>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

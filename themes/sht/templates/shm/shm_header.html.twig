@@ -1,0 +1,41 @@
+<nav class="nav-extended">
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">
+      <i class="large material-icons logo">timelapse</i>
+    </a>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      {% for key, title in data.lang %}
+        <li><a href="{{ language_urls[key] }}">{{ title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="nav-content">
+    <ul class="tabs tabs-transparent">
+      {% for link in data.menu %}
+        <li class="tab"><a href="{{ link.link }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+<ul id="slide-out" class="sidenav">
+  <li>
+    <div class="user-view">
+      <div class="background">
+        <img src="/{{ directory }}/image/slide-out-bg.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="/{{ directory }}/image/face-64x64.jpg"></a>
+      <a href="#name"><span class="white-text name">{{ data.name }}</span></a>
+      <a href="#email"><span class="white-text email">{{ data.email }}</span></a>
+    </div>
+  </li>
+  {% for link in data.menu %}
+    <li><a href="{{ link.link }}">{{ link.title }}</a></li>
+  {% endfor %}
+  <li>
+    <div class="divider"></div>
+  </li>
+  {% for key, title in data.lang %}
+    <li><a href="{{ language_urls[key] }}">{{ title }}</a></li>
+  {% endfor %}
+</ul>

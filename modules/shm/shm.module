@@ -1,0 +1,66 @@
+<?php
+
+/**
+ * @file
+ * Contains shm.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use \Drupal\Core\Url;
+
+/**
+ * Implements hook_help().
+ */
+function shm_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the shm module.
+    case 'help.page.shm':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function shm_theme() {
+  return [
+    'shm_header' => [
+      'variables' => ['data' => NULL],
+    ],
+    'shm_hero' => [
+      'variables' => ['data' => NULL],
+    ],
+    'shm_about_me' => [
+      'variables' => ['data' => NULL],
+    ],
+    'shm_resume' => [
+      'variables' => ['data' => NULL],
+    ],
+    'shm_services' => [
+      'variables' => ['data' => NULL],
+    ],
+    'shm_contact' => [
+      'variables' => ['data' => NULL],
+    ],
+    'shm_footer' => [
+      'variables' => ['data' => NULL],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for shm_header.html.twig.
+ */
+function shm_preprocess_shm_header(&$variables) {
+  $languages = \Drupal::languageManager()->getLanguages();
+  $languageUrls = [];
+  foreach ($languages as $key => $language) {
+    $languageUrls[$key] = Url::fromRoute('<current>', [], ['language' => $language]);
+  }
+  $variables['language_urls'] = $languageUrls;
+}
